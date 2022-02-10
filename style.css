@@ -1,0 +1,60 @@
+body{
+    background-color: bisque;
+    
+}
+
+#title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+.list{
+    list-style-position: inside;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.image{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    margin-left: 20em;
+    margin-right: 20em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.ingredients{
+    font-style: italic;
+    
+}
+
+.blocList{
+    list-style-position: inside;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Etapes{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: .5em 0;
+    line-height: 1.5;
+}
+
+ol>li{
+    margin-bottom: 20px;
+}
