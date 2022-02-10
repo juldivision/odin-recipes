@@ -46,9 +46,16 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.Etapes{
+.blocList2{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.etapes{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     margin: .5em 0;
@@ -57,4 +64,10 @@ body{
 
 ol>li{
     margin-bottom: 20px;
+}
+
+.returnIndex{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
